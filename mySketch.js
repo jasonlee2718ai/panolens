@@ -10,7 +10,7 @@ viewer = new PANOLENS.Viewer({
   controlButtons: ['fullscreen', 'setting', 'video']
 });
   
-let pano_name = "M3_Watercolor_equirectangular-jpg_a_big_studio_with_1264537915_13711509.jpg";
+let pano_name = "M3_Watercolor_equirectangular-jpg_a_big_studio_with_1264537915_13711509.jpg"; 
 let pano_url = "https://images.blockadelabs.com/images/imagine/"+pano_name;
 
 panorama = new PANOLENS.ImagePanorama( pano_name );  
